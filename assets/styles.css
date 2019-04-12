@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #f72210 !important;
+  height: 95px;
+  padding: 20px 10px 15px;
+}
+
+.navbar-date {
+  font: 16px "Roboto Condensed", sans-serif;
+  color: #fff;
+}
+
+#nav-signin {
+  color: #fff;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 20px;
+}
+
+#nav-subscribe {
+  background-color: #fff;
+  color: #f72210;
+  padding: 10px;
+}
