@@ -1,4 +1,84 @@
+.article {
+  margin: 0 15px;
+}
+
+.article-feature {
+  margin: 0px 0;
+}
+.article-tittle {
+  padding: 15px 0;
+  color: black;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.article-description {
+  padding: 10px 0;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature-header {
+  color: #666;
+  color: rgba(3, 3, 3, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold 15px/15px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+.heading-text {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 0 9px;
+  border-right: 1px solid lightgray;
+}
+
+.heading-text:hover {
+  color: red;
+}
+
+.image-sm {
+  width: 100%;
+  height: 30vh;
+  background-color: gray;
+}
+
+.image-md {
+  width: 100%;
+  height: 60vh;
+  background-color: gray;
+}
+
+.image-mn {
+  width: 35%;
+  height: 20vh;
+  background-color: gray;
+}
+
+.more-stories {
+  border-bottom: 1px solid #d9d9d9;
+}
 .navbar {
+  padding: 0px !important;
+}
+
+.navbar-heading {
+  margin: 15px 0;
+  background-color: white;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.navbar-heading-search {
+  max-width: 100%;
+}
+
+.navbar-main {
   background-color: #f72210 !important;
   height: 95px;
   padding: 20px 10px 15px;
@@ -7,6 +87,52 @@
 .navbar-date {
   font: 16px "Roboto Condensed", sans-serif;
   color: #fff;
+  padding-top: 5vh;
+}
+
+.nav-padding {
+  padding: 10px;
+}
+
+.related {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 0;
+}
+
+.related-text {
+  font: bold 16px/20px "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+
+.story {
+  margin: 0 !important;
+  padding: 10px 0;
+}
+
+.story-description-container {
+  width: 60%;
+  padding: 0px 15px;
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.story-tittle {
+  color: black;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#header-search {
+  width: 30%;
+  background-color: transparent;
+  border: 0px solid;
 }
 
 #nav-signin {
@@ -14,10 +140,23 @@
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   padding-right: 20px;
+  font-weight: 800;
 }
 
 #nav-subscribe {
   background-color: #fff;
   color: #f72210;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
   padding: 10px;
+}
+
+#nav-text {
+  font-weight: 500;
+  color: white;
+  font-size: 4rem;
+  font-family: "Alfa Slab One", cursive;
+}
+
+#nav-items {
+  padding-top: 5vh;
 }
