@@ -43,6 +43,13 @@
   color: red;
 }
 
+.image-circle {
+  width: 20%;
+  height: 10vh;
+  border-radius: 50px;
+  background-color: gray;
+}
+
 .image-sm {
   width: 100%;
   height: 30vh;
@@ -92,6 +99,31 @@
 
 .nav-padding {
   padding: 10px;
+}
+.opinion {
+  padding: 10px 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.opinion-description {
+  color: #666;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  font: bold 13px/18px "Roboto Condensed", sans-serif;
+  margin: 3px 0;
+}
+
+.opinion-description-container {
+  width: 75%;
+  padding: 0px 15px;
+  color: #333;
+  line-height: 20px;
+  padding: 0px 15px;
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .related {
