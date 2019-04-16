@@ -21,10 +21,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.feature-latest {
-  border-bottom: 1px solid #d9d9d9;
-  padding: 10px 15px;
-}
 .feature-header {
   color: #666;
   color: rgba(3, 3, 3, 0.4);
@@ -33,6 +29,11 @@
   text-transform: uppercase;
   padding: 15px 0;
   border-bottom: 1px solid #d9d9d9;
+}
+
+.feature-latest {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 15px;
 }
 
 .heading-text {
@@ -84,6 +85,11 @@
   background-color: gray;
 }
 
+.magazine-content {
+  width: 100%;
+  height: 50vh;
+  background-color: gray;
+}
 .more-stories {
   border-bottom: 1px solid #d9d9d9;
 }
