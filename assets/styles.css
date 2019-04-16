@@ -21,6 +21,36 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.category-feature {
+  height: 40vh;
+  padding: 0;
+  margin: 0px;
+}
+
+.category-image {
+  width: 30%;
+  height: 13vh;
+  background-color: gray;
+  margin: 5px 10px;
+  padding: 0 0px;
+}
+
+.category-tittle {
+  width: 52%;
+  padding: 10px 0;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 900;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.category-other-feature {
+  height: 15vh;
+  padding: 0;
+  margin: 0px;
+}
+
 .feature-header {
   color: #666;
   color: rgba(3, 3, 3, 0.4);
@@ -156,6 +186,18 @@
 .nav-padding {
   padding: 10px;
 }
+
+.other-categories-header {
+  color: #666;
+  color: rgba(3, 3, 3, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold 15px/15px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin: 0 15px;
+  border-top: 1px solid #d9d9d9;
+  margin: 5px 15px;
+  padding: 10px 0;
+}
 .opinion {
   padding: 10px 0;
   border-bottom: 1px solid #d9d9d9;
@@ -194,7 +236,6 @@
 }
 
 .pics-feature {
-  height: 60vh;
   padding: 0;
   margin: 0px;
 }
