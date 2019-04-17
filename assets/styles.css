@@ -67,7 +67,7 @@
 }
 
 .footer {
-  height: 20vh;
+  height: 12vh;
   width: 100%;
 }
 
@@ -169,6 +169,14 @@
   width: 100%;
   height: 70%;
   margin: 10px 0;
+}
+
+.magazine-inline {
+  width: 29px;
+  height: 28px;
+  background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg")
+    center/contain no-repeat #f72210;
+  margin-right: 10px;
 }
 
 .magazine-feature {
@@ -381,14 +389,6 @@
   width: 30%;
   background-color: transparent;
   border: 0px solid;
-}
-
-#magazine-inline {
-  width: 29px;
-  height: 28px;
-  background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg")
-    center/contain no-repeat #f72210;
-  margin-right: 10px;
 }
 
 #magazine-inline-text {
