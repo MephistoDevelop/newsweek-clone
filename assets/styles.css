@@ -1,10 +1,76 @@
-.article {
-  margin: 0 15px;
+@media screen and (min-width: 10px) and (max-width: 390px) {
+  .navbar-heading {
+    display: none;
+  }
+  .navbar-main {
+    display: none;
+  }
+  #navbar-hide {
+    display: flex !important;
+    background-color: #f72210 !important;
+    height: 40px !important;
+  }
+  #nav-hide-icon {
+    color: white;
+    font-size: 15px;
+  }
+  #nav-items {
+    font-size: 1.3em !important;
+    max-width: 300px;
+  }
+  #nav-text {
+    font-size: 1.3em !important;
+  }
+  #nav-signin {
+    font-size: 13px !important;
+  }
+  #nav-subscribe {
+    margin-right: 10px !important;
+    font: bold 10px/5px "Roboto Condensed", sans-serif !important;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 391px) and (max-width: 1000px) {
+  .article {
+    min-width: 100%;
+  }
+  .navbar-heading {
+    display: none;
+  }
+  .navbar-main {
+    display: none;
+  }
+  #navbar-hide {
+    display: flex !important;
+    background-color: #f72210 !important;
+    height: 40px !important;
+  }
+  #nav-hide-icon {
+    color: white;
+    font-size: 15px;
+  }
+  #nav-items {
+    font-size: 1.3em !important;
+    min-width: 305px;
+  }
+  #nav-text {
+    font-size: 1.3em !important;
+  }
+  #nav-signin {
+    font-size: 13px !important;
+  }
+  #nav-subscribe {
+    margin-right: 10px !important;
+    font: bold 10px/5px "Roboto Condensed", sans-serif !important;
+    padding: 10px;
+  }
 }
 
-.article-feature {
-  margin: 0px 0;
+.article {
+  margin: 0 15px;
+  min-width: 290px;
 }
+
 .article-tittle {
   padding: 15px 0;
   color: black;
@@ -24,7 +90,6 @@
 .category-feature {
   height: 40vh;
   padding: 0;
-  margin: 0px;
 }
 
 .category-image {
@@ -113,11 +178,23 @@
   color: red;
 }
 
+.image {
+  background-image: url("https://s.newsweek.com/sites/www.newsweek.com/files/styles/md/public/2019/04/19/jerry-nadler-judiciary-committee-subpoenas-mueller-report.jpg");
+  background-size: cover;
+}
+
+.image-avatar {
+  background-image: url("https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/peter_roff.png");
+  background-size: cover;
+}
+.image-article {
+  background-image: url("https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/04/18/goods.jpg");
+  background-size: cover;
+}
+
 .image-circle {
   min-width: 60px;
   height: 10vh;
-  border-radius: 50px;
-  background-color: gray;
 }
 
 .image-med {
@@ -204,9 +281,10 @@
 }
 
 .navbar-heading {
-  margin: 15px 0;
+  padding: 15px 0;
   background-color: white;
   border-bottom: 1px solid #d9d9d9;
+  min-width: 1125px;
 }
 
 .navbar-heading-search {
@@ -223,6 +301,7 @@
   font: 16px "Roboto Condensed", sans-serif;
   color: #fff;
   padding-top: 5vh;
+  min-width: 175px;
 }
 
 .nav-padding {
@@ -391,19 +470,20 @@
   border: 0px solid;
 }
 
-#magazine-inline-text {
-}
-
 #map-site {
   width: 85%;
   margin: 0px 40px;
+}
+
+#navbar-hide {
+  display: none;
 }
 
 #nav-signin {
   color: #fff;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-right: 20px;
+  padding-right: 10px;
   font-weight: 800;
 }
 
@@ -411,7 +491,7 @@
   background-color: #fff;
   color: #f72210;
   font: bold 14px/14px "Roboto Condensed", sans-serif;
-  padding: 10px;
+  padding: 10px 10px;
 }
 
 #nav-text {
@@ -419,8 +499,4 @@
   color: white;
   font-size: 4rem;
   font-family: "Alfa Slab One", cursive;
-}
-
-#nav-items {
-  padding-top: 5vh;
 }

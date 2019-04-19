@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="assets/styles.css" />
-    <link rel="stylesheet" href="assets/reset.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/reset.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&Amiri&Patua+One&Russo+One&Titillium+Web"
       rel="stylesheet"
@@ -25,7 +25,23 @@
     <title>The newsweek clone</title>
   </head>
   <body>
-    <nav class="navbar-main navbar navbar-expand-lg navbar-light">
+    <nav id="navbar-hide">
+      <div class="container-fluid align-self-center">
+        <div class="row" style="min-width: 400px;">
+          <p id="nav-text" class="nav-text col-1 align-self-center"">
+            Newsweek
+          </p>
+          <div id="nav-items" class="d-flex col-11 justify-content-end">
+            <p id="nav-signin" class="align-self-center">SIGN IN</p>
+            <p id="nav-subscribe">SUBSCRIBE ></p>
+            <i id="nav-hide-icon"  class="fas fa-bars  align-self-center"></i>
+          </div>
+
+          <div class="col-8  align-self-center"></div>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar-main navbar">
       <div id="nav-item-clock" class="col-2 flex-xs-6">
         <p class="text-center navbar-date">Mon Apr 12, 2019</p>
       </div>
@@ -37,7 +53,8 @@
         <p id="nav-subscribe">SUBSCRIBE ></p>
       </div>
     </nav>
-    <div class="main-container">
+
+    <div class="container-fluid main-container">
       <div class="navbar-heading">
         <ul class="navbar navbar-default">
           <li class="heading-text">U.S.</li>
@@ -58,9 +75,9 @@
         </ul>
       </div>
       <div class="justify-content-center row grid-news">
-        <div class="col-3 article">
+        <div class="col-lg article">
           <div class="feature-header">Featured Stories</div>
-          <div class="image-med">image</div>
+          <div class="image-med image"></div>
           <div class="article-tittle">
             Will Stephen Miller Testify Before Congress?
           </div>
@@ -150,12 +167,12 @@
             </div>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-lg">
           <div class="row">
             <div style="padding: 0;" class="col-sm-6">
               <div class="feature-header">Featured Stories</div>
               <div class="article-feature">
-                <div class="image-md">image</div>
+                <div class="image-md image-article"></div>
                 <div class="article-tittle">
                   Six Charged With Spreading New Zealand Attack Video
                 </div>
@@ -291,11 +308,11 @@
                 </div>
               </div>
             </div>
-            <div style="padding: 0px 50px;" class="col-sm-6">
+            <div class="col-sm-6">
               <div class="feature-header">Opinion</div>
               <div class="opinion-container">
                 <div class="row opinion">
-                  <div class="text-center image-circle"></div>
+                  <div class="text-center image-circle image-avatar"></div>
                   <div class="opinion-description-container">
                     <div class="story-tittle">
                       Tiger's Win Is 'Kick in the Gut' for Nasty Media
@@ -306,7 +323,7 @@
                   </div>
                 </div>
                 <div class="row opinion">
-                  <div class="image-circle"></div>
+                  <div class="image-circle image-avatar"></div>
                   <div class="opinion-description-container">
                     <div class="story-tittle">
                       Tiger's Win Is 'Kick in the Gut' for Nasty Media
@@ -317,7 +334,7 @@
                   </div>
                 </div>
                 <div class="row opinion">
-                  <div class="image-circle"></div>
+                  <div class="image-circle image-avatar"></div>
                   <div class="opinion-description-container">
                     <div class="story-tittle">
                       Tiger's Win Is 'Kick in the Gut' for Nasty Media
@@ -328,7 +345,7 @@
                   </div>
                 </div>
                 <div class="row opinion">
-                  <div class="image-circle"></div>
+                  <div class="image-circle image-avatar"></div>
                   <div class="opinion-description-container">
                     <div class="story-tittle">
                       Tiger's Win Is 'Kick in the Gut' for Nasty Media
@@ -339,7 +356,7 @@
                   </div>
                 </div>
                 <div class="row opinion">
-                  <div class="image-circle"></div>
+                  <div class="image-circle image-avatar"></div>
                   <div class="opinion-description-container">
                     <div class="story-tittle">
                       Tiger's Win Is 'Kick in the Gut' for Nasty Media
@@ -503,7 +520,7 @@
           <span class="magazine-inline"></span> <span>In the Magazine</span>
         </div>
         <div style="margin: 15px;" class="row">
-          <div class="col-3 pics-feature">
+          <div class="col pics-feature">
             <div class="article-feature">
               <div class="pics-image">image</div>
               <div class="pics-tittle">
@@ -515,7 +532,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 pics-feature">
+          <div class="col pics-feature">
             <div class="article-feature">
               <div class="pics-image">image</div>
               <div class="pics-tittle">
@@ -527,7 +544,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 pics-feature">
+          <div class="col pics-feature">
             <div class="article-feature">
               <div class="pics-image">image</div>
               <div class="pics-tittle">
@@ -539,7 +556,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 pics-feature">
+          <div class="col pics-feature">
             <div class="article-feature">
               <div class="pics-image">image</div>
               <div class="pics-tittle">
@@ -553,7 +570,7 @@
           </div>
         </div>
         <div style="margin: 15px;" class="row">
-          <div class="col-sm-3 pics-feature">
+          <div class="col-sm pics-feature">
             <div class="article-feature">
               <div class="pics-image">image</div>
               <div class="pics-tittle">
@@ -565,7 +582,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-3 pics-feature">
+          <div class="col-sm pics-feature">
             <div class="article-feature">
               <div class="pics-image">image</div>
               <div class="pics-tittle">
@@ -577,7 +594,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-3 pics-feature">
+          <div class="col-sm pics-feature">
             <div class="article-feature">
               <div class="pics-image">image</div>
               <div class="pics-tittle">
@@ -589,7 +606,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-3 pics-feature">
+          <div class="col-sm pics-feature">
             <div class="article-feature">
               <div class="pics-image">image</div>
               <div class="pics-tittle">
@@ -955,7 +972,7 @@
               <span>NEWSWEEK</span>
               <span id="footer-copyrigth">© 2019 Newsweek</span>
             </div>
-            <div id="footer-icon-container" class="col-3">
+            <div id="footer-icon-container" class="col-lg-3">
               <i class="footer-icons fab fa-facebook-square"></i>
               <i class="footer-icons fab fa-twitter"></i>
               <i class="footer-icons fab fa-instagram"></i>
@@ -983,7 +1000,7 @@
                 <li class="footer-links">Consent preferences</li>
               </ul>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4">
               <ul class="navbar ">
                 <li class="">Editions:</li>
                 <li class="footer-links">U.S. Edition</li>
