@@ -5,6 +5,10 @@
   .navbar-heading {
     display: none;
   }
+  .nav-items {
+    font-size: 1.3em !important;
+    max-width: 300px;
+  }
   .navbar-main {
     display: none;
   }
@@ -17,10 +21,7 @@
     color: white;
     font-size: 15px;
   }
-  #nav-items {
-    font-size: 1.3em !important;
-    max-width: 300px;
-  }
+
   #nav-text {
     font-size: 1.3em !important;
   }
@@ -272,6 +273,13 @@
   min-width: 175px;
 }
 
+.nav-text {
+  font-weight: 500;
+  color: white;
+  font-size: 4rem;
+  font-family: "Alfa Slab One", cursive;
+}
+
 .opinion-container {
   padding: 0 10px;
 }
@@ -428,11 +436,4 @@
   color: #f72210;
   font: bold 14px/14px "Roboto Condensed", sans-serif;
   padding: 10px 10px;
-}
-
-#nav-text {
-  font-weight: 500;
-  color: white;
-  font-size: 4rem;
-  font-family: "Alfa Slab One", cursive;
 }
