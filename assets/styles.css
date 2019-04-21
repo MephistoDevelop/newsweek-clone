@@ -1,4 +1,7 @@
 @media screen and (min-width: 10px) and (max-width: 390px) {
+  .article {
+    min-width: none;
+  }
   .navbar-heading {
     display: none;
   }
@@ -32,7 +35,7 @@
 }
 @media screen and (min-width: 391px) and (max-width: 980px) {
   .article {
-    min-width: 100%;
+    min-width: none;
   }
   .navbar-heading {
     display: none;
@@ -80,13 +83,17 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.line-bottom {
+  border-bottom: 1px solid #d9d9d9;
+}
+
 .category-feature {
   height: 40vh;
 }
 
 .category-image {
-  width: 30%;
-  height: 13vh;
+  width: 25%;
+  height: 8vh;
   background-color: gray;
 }
 
@@ -175,8 +182,9 @@
 }
 
 .image-circle {
-  min-width: 80px;
-  min-height: 14vh;
+  min-width: 69px;
+  height: 11vh;
+  max-height: 68px;
 }
 
 .image-med {
@@ -199,8 +207,7 @@
 
 .image-mn {
   width: 35%;
-  height: 20vh;
-  background-color: gray;
+  min-width: 170px;
 }
 
 .latest-description {
@@ -209,9 +216,7 @@
 }
 .latest-image {
   width: 30%;
-  height: 15vh;
-  margin-right: 15px;
-  background-color: gray;
+  height: 20%;
 }
 
 .magazine-category {
@@ -221,13 +226,6 @@
 .magazine-container {
   width: 100%;
   height: 110vh;
-}
-
-.magazine-image {
-  background-color: gray;
-  width: 100%;
-  height: 70%;
-  margin: 10px 0;
 }
 
 .magazine-inline {
@@ -240,18 +238,14 @@
 
 .magazine-feature {
   width: 100%;
-  height: 50vh;
+  height: 30vh;
 }
 
 .magazine-header {
-  width: 100%;
   height: 16%;
   font-size: 15px;
   line-height: 18px;
   font-family: "Roboto Condensed", sans-serif;
-  margin-bottom: 10px;
-  position: relative;
-  color: #000;
   font-weight: 600;
 }
 
@@ -263,7 +257,6 @@
 }
 
 .navbar-heading {
-  padding: 15px 0;
   background-color: white;
   border-bottom: 1px solid #d9d9d9;
   min-width: 1125px;
@@ -276,7 +269,6 @@
 .navbar-main {
   background-color: #f72210 !important;
   height: 95px;
-  padding: 20px 10px 15px;
 }
 
 .navbar-date {
@@ -286,26 +278,13 @@
   min-width: 175px;
 }
 
-.nav-padding {
-  padding: 10px;
-}
-
-.opinion {
-  padding: 10px 0;
-  border-bottom: 1px solid #d9d9d9;
-}
-
 .opinion-container {
   padding: 0 10px;
 }
 
 .opinion-description {
   color: #666;
-  font-size: 14px;
-  line-height: 21px;
-  text-transform: uppercase;
   font: bold 13px/18px "Roboto Condensed", sans-serif;
-  margin: 3px 0;
 }
 
 .opinion-description-container {
@@ -354,15 +333,12 @@
 
 .pics-feature {
   padding: 0;
-  margin: 0px;
 }
 
 .pics-image {
   width: 100%;
   height: 35vh;
   background-color: gray;
-  margin: 5px 0px;
-  padding: 0 20px;
 }
 
 .pics-tittle {
