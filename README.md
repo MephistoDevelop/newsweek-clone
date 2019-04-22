@@ -1,19 +1,18 @@
-# Base structure
+# The News Week Clone
 
 ### HTML & CSS Course
 
 **Description**
 
-Simple file and folder from a basic project from MICROVERSE HTML-CSS Course
+Simple tnw clone made with HMTL and CSS using framework BOOSTRAP
 
-# Content
+# Learned
 
-- index.html with HTML5 structure
-- README.md file with markdown languaje
-- .stickler file with the basic config
-- assets folder
-  -style.css file to styles properties
-  -reset.css file to a style reset from the style components
+- Boostrap
+- Grids
+- Responsive Design
 
-**Created by**
-[MephistoDevelop](https://www.github.com/mephistodevelop) & [Noincomedev](https://www.github.com/noincomedev)
+[**Live Demo**](https://rawcdn.githack.com/MephistoDevelop/newsweek-clone/cdedb8a8cefe92d591488ae375e3a57f914594b3/index.html)
+
+**Coded by**
+[MephistoDevelop](https://www.github.com/mephistodevelop)
