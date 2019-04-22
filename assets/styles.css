@@ -21,22 +21,25 @@
     color: white;
     font-size: 15px;
   }
-
-  #nav-text {
-    font-size: 1.3em !important;
+  .nav-text {
+    font-size: 1.1em !important;
   }
-  #nav-signin {
+  .nav-signin {
     font-size: 13px !important;
   }
-  #nav-subscribe {
+  .nav-subscribe {
     margin-right: 10px !important;
     font: bold 10px/5px "Roboto Condensed", sans-serif !important;
-    padding: 10px;
+    padding: 10px !important;
   }
 }
 @media screen and (min-width: 391px) and (max-width: 980px) {
   .article {
-    min-width: none;
+    min-width: 50%;
+  }
+  .more-stories {
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0 10px;
   }
   .navbar-heading {
     display: none;
@@ -57,16 +60,16 @@
     font-size: 1.3em !important;
     min-width: 305px;
   }
-  #nav-text {
-    font-size: 1.3em !important;
+  .nav-text {
+    font-size: 1.1em !important;
   }
-  #nav-signin {
+  .nav-signin {
     font-size: 13px !important;
   }
-  #nav-subscribe {
+  .nav-subscribe {
     margin-right: 10px !important;
     font: bold 10px/5px "Roboto Condensed", sans-serif !important;
-    padding: 10px;
+    padding: 5px !important;
   }
 }
 
@@ -93,8 +96,8 @@
 }
 
 .category-image {
-  width: 25%;
-  height: 8vh;
+  width: 23%;
+  min-height: 7vh;
   background-color: gray;
 }
 
@@ -108,9 +111,7 @@
 }
 
 .feature-header {
-  color: #666;
   color: rgba(3, 3, 3, 0.4);
-  font-family: Arial, Helvetica, sans-serif;
   font: bold 15px/15px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #d9d9d9;
@@ -123,7 +124,6 @@
 .footer-icons {
   font-size: 26px;
   color: #666;
-  margin: 0 5px;
 }
 
 .footer-lang {
@@ -280,8 +280,14 @@
   font-family: "Alfa Slab One", cursive;
 }
 
-.opinion-container {
-  padding: 0 10px;
+.nav-signin {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.opinion {
+  min-width: 310px;
 }
 
 .opinion-description {
@@ -383,14 +389,9 @@
 }
 
 .tag-category {
-  padding: 0 7px;
   background-color: #f72210;
   color: #fff;
-  margin-right: 7px;
   font: bold 16px/26px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .tag-ubication {
@@ -408,7 +409,6 @@
   color: red;
   font-size: 45px;
   font-weight: bolder;
-  margin: 0px 0px;
 }
 
 #header-search {
@@ -425,15 +425,14 @@
   display: none;
 }
 
-#nav-signin {
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 800;
-}
-
 #nav-subscribe {
   background-color: #fff;
   color: #f72210;
   font: bold 14px/14px "Roboto Condensed", sans-serif;
-  padding: 10px 10px;
+}
+
+#nav-subscribe-hide {
+  background-color: #fff;
+  color: #f72210;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
 }
