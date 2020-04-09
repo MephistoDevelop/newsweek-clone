@@ -34,9 +34,9 @@ This basicaly only a web page with only one HTML file you will only need to open
 - Twitter: [@MephistoDevelop](https://twitter.com/MephistoDevelop)
 - Linkedin: [Cristian Hernandez](https://www.linkedin.com/in/cristian-hernandez1992/)
 
-👤 **Diego Roblez Vergara. - NOINCOMEDEV**
+👤 **Diego Roblez Vergara. - NoincomeDev**
 
-- Github: [@noincomedev](https://www.github.com/noincomedev)/cristian-hernandez1992/)
+- Github: [@noincomedev](https://www.github.com/noincomedev)
 
 
 ## 🤝 Contributing
